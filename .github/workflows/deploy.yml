@@ -1,0 +1,9 @@
+name: deploy-root
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deploy-root ran"
